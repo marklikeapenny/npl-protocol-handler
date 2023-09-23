@@ -1,0 +1,21 @@
+{
+    "name": "npl-protocol-handler",
+    "version": "0.1.0",
+    "description": "npl-protocol-handler is a general-purpose event handler for Evernode HotPocket NPL events with support for arbitrary application-specific protocols.",
+    "main": "index.js",
+    "scripts": {
+        "test1": "hpdevkit clean && npm link && cd example1 && npm link npl-protocol-handler && npm start",
+        "test2": "hpdevkit clean && npm link && cd example2 && npm link npl-protocol-handler && npm start"
+    },
+    "keywords": [
+        "evernode",
+        "hotpocket",
+        "infrastructure",
+        "npl"
+    ],
+    "author": "@marklikeapenny",
+    "license": "ISC",
+    "dependencies": {
+        "hotpocket-nodejs-contract": "0.5.7"
+    }
+}

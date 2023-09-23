@@ -1,0 +1,16 @@
+{
+    "name": "npl-protocol-handler-example2",
+    "version": "0.1.0",
+    "description": "Another demo to showcase use of npl-protocol-handler",
+    "scripts": {
+        "build": "npx ncc build src/contract.js -o dist",
+        "build:prod": "npx ncc build src/contract.js --minify -o dist",
+        "start": "npm run build && hpdevkit deploy dist"
+    },
+    "author": "@marklikeapenny",
+    "license": "ISC",
+    "dependencies": {
+        "@vercel/ncc": "^0.38.0",
+        "hotpocket-nodejs-contract": "0.5.7"
+    }
+}
