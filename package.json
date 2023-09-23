@@ -7,6 +7,14 @@
         "test1": "hpdevkit clean && npm link && cd example1 && npm link npl-protocol-handler && npm start",
         "test2": "hpdevkit clean && npm link && cd example2 && npm link npl-protocol-handler && npm start"
     },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/marklikeapenny/npl-protocol-handler.git"
+    },
+    "bugs": {
+        "url": "https://github.com/marklikeapenny/npl-protocol-handler/issues"
+    },
+    "homepage": "https://github.com/marklikeapenny/npl-protocol-handler",
     "keywords": [
         "evernode",
         "hotpocket",
