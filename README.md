@@ -1,6 +1,6 @@
 # npl-protocol-handler
 
-A general-purpose event handler for Evernode HotPocket NPL events with support for arbitrary application-specific protocols.
+A minimal infrastructure component for developers to uniformly integrate application protocols with HotPocket NPL messaging.
 
 **`npl-protocol-handler`** is available for installation on [npm](https://www.npmjs.com/package/npl-protocol-handler):
 
@@ -84,7 +84,11 @@ npm install npl-protocol-handler
 
 # Prerequisites
 
-Your system must be generally prepared for HotPocket smart contract development.
+Your system must be generally prepared for HotPocket smart contract development:
+
+-   [Evernode SDK](https://github.com/EvernodeXRPL/evernode-sdk)
+-   [HotPocket basics tutorial](https://github.com/EvernodeXRPL/evernode-sdk/blob/main/hotpocket/tutorial-basics.md)
+-   [HotPocket tutorial - multiple nodes](https://github.com/EvernodeXRPL/evernode-sdk/blob/main/hotpocket/tutorial-multinode.md)
 
 # Give it a try
 
@@ -93,4 +97,5 @@ A basic smart contract and demo protocol implementation can be found inside of s
 -   `npm link`
 -   `cd example1` || `cd example2`
 -   `npm link npl-protocol-handler`
+-   `cd ..`
 -   `npm run test1` || `npm run test2`
